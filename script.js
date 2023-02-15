@@ -1,7 +1,7 @@
 //your code here
 var todoValue = document.getElementById("newTodoInput");
 var btnv = document.getElementById("addTodoBtn");
-var ol = document.getElementById("odoList");
+var ol = document.getElementById("todoList");
 
 function addTodo (){
     if(todoValue.value){
@@ -12,4 +12,4 @@ function addTodo (){
     }
 }
 
-btnv.addEventListener('click',addTodo)
+btn.addEventListener('click', addTodo);
